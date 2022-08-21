@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2091309468990261"
-   crossorigin="anonymous"></script>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Techniko - Home</title>
-   
-   <link rel="shortcut icon" href="images/about-1.png" type="image/x-icon" />
+   <title>TechNiko -A Website By Nikya Lokhande</title>
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2091309468990261"
+   crossorigin="anonymous"></script>
    <!-- font awesome cdn link  -->
-   <meta name="description" content="Nisarga LOkhands Website you will get here New Blogs by Nisarga Lokhande as well as Nikobuddy">
-    <meta name="keywords" content="techniko,nikobuddy,technik,Nisarga Lokhande,nikya lokhande">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="shortcut icon" href="images/about-1.png" type="image/x-icon" />
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -26,17 +23,126 @@
 
    <section class="flex">
 
-      <a href="index.html" class="logo">TechNiko</a>
+      <a href="index.html" class="logo">NikoCode</a>
 
       <nav class="navbar">
          <a href="index.html">Home</a>
-         <a href="aboutus.html">About</a>
-         <a href="privacypollicy.html">Privacy Pollicy</a>
+         <a href="blogs.html">Blog's</a>
+         <a href="yt.html">YT Video Downloder</a>
+         <a href="Privacypollicy.html">Privacy Pollicy</a>
+         <a href="about.html">About</a>
+
       </nav>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="order-btn" class="fas fa-box"></div>
+         <div id="cart-btn" class="fas fa-shopping-cart"><span>(Nikobuddy)</span></div>
+      </div>
 
    </section>
 
 </header>
+
+<!-- header section ends -->
+
+<div class="user-account">
+
+   <section>
+
+      <div id="close-account"><span>close</span></div>
+
+      <div class="user">
+         <p><span>you are not logged in now!</span></p>
+      </div>
+
+      <div class="display-orders">
+         <p>NikoBuddy <span>( Niko )</span></p>
+         <p>Nikya Lokhande <span>( Niko )</span></p>
+         <p>Nisarga Lokhande<span>( Niko )</span></p>
+      </div>
+
+      <div class="flex">
+
+         <form action="" method="post">
+            <h3>login now</h3>
+            <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="50">
+            <input type="password" name="pass" required class="box" placeholder="enter your password" maxlength="20">
+            <input type="submit" value="login now" name="login" class="btn">
+         </form>
+
+         <form action="" method="post">
+            <h3>register now</h3>
+            <input type="text" name="name" required class="box" placeholder="enter your name" maxlength="20">
+            <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="50">
+            <input type="password" name="pass" required class="box" placeholder="enter your password" maxlength="20">
+            <input type="password" name="cpass" required class="box" placeholder="confirm your password" maxlength="20">
+            <input type="submit" value="register now" name="register" class="btn">
+         </form>
+
+      </div>
+
+   </section>
+
+</div>
+
+<div class="my-orders">
+
+   <section>
+
+      <div id="close-orders"><span>close</span></div>
+
+      <h3 class="title"> my orders </h3>
+
+      <div class="box">
+         <p>placed on : <span>06/04/2022</span> </p>
+         <p>name : <span>shaikh anas</span> </p>
+         <p>number : <span>1234567890</span></p>
+         <p>address : <span>flat no. 123, bulding no. 2, jogeshwari, mumbai, india - 400104</span></p>
+         <p>payment method : <span>cash on delivery</span></p>
+         <p>your orders : <span>pizza 01 $3/- x 2, pizza 03 $2/- x 1, pizza 06 $4/- x 4, pizza 07, $2/- x 1</span></p>
+         <p>total price : <span>$11/-</span></p>
+         <p>payment status : <span style="color: var(--red);">pending</span> </p>
+      </div>
+
+      <div class="box">
+         <p>placed on : <span>06/04/2022</span> </p>
+         <p>name : <span>shaikh anas</span> </p>
+         <p>number : <span>1234567890</span></p>
+         <p>address : <span>flat no. 123, bulding no. 2, jogeshwari, mumbai, india - 400104</span></p>
+         <p>payment method : <span>cash on delivery</span></p>
+         <p>your orders : <span>pizza 01 $3/- x 2, pizza 03 $2/- x 1, pizza 06 $4/- x 4, pizza 07, $2/- x 1</span></p>
+         <p>total price : <span>$11/-</span></p>
+         <p>payment status : <span style="color: var(--red);">pending</span> </p>
+      </div>
+
+   </section>
+
+</div>
+
+<div class="shopping-cart">
+
+   <section>
+
+      <div id="close-cart"><span>close</span></div>
+
+      <div class="box">
+         <a href="#" class="fas fa-times"></a>
+         <img src="images/home-img-3.jpeg" alt="">
+         <div class="content">
+            <p>Nikobuddy <span>( Nikya Lokhande )</span></p>
+            <form action="" method="post">
+               <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+               <button type="submit" class="fas fa-edit" name="update_qty"></button>
+            </form>
+         </div>
+      </div>
+
+      <a href="#order" class="btn">order now</a>
+
+   </section>
+
 </div>
 
 <div class="home-bg">
@@ -50,11 +156,34 @@
                <img src="images/home-img-1.png" alt="">
             </div>
             <div class="content">
-               <h3>Nisarga Lokhande</h3>
+               <h3>TechNiko</h3>
                <div class="fas fa-angle-left" onclick="prev()"></div>
                <div class="fas fa-angle-right" onclick="next()"></div>
             </div>
          </div>
+
+         <div class="slide">
+            <div class="image">
+               <img src="images/home-img-2.png" alt="">
+            </div>
+            <div class="content">
+               <h3>A Website By Nikobuddy</h3>
+               <div class="fas fa-angle-left" onclick="prev()"></div>
+               <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+         </div>
+
+         <div class="slide">
+            <div class="image">
+               <img src="images/home-img-3.jpeg" alt="">
+            </div>
+            <div class="content">
+               <h3>Nikya Lokhande</h3>
+               <div class="fas fa-angle-left" onclick="prev()"></div>
+               <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+         </div>
+
       </div>
 
    </section>
@@ -65,16 +194,31 @@
 
 <section class="about" id="about">
 
-   <h1 class="heading">About Nik</h1>
+   <h1 class="heading">Blog's</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/about-1.png" alt="">
-         <h3>Nisarga Lokhande</h3>
-         <p>So he is the Developer of this Website as well as off other many website Name as Nikobuddy</p>
-         <a href="#menu" class="btn">Read More</a>
+         <img src="images/admob.png" alt="">
+         <a href="blogs/admob.html"><h3>How to use Google Admob</h3></a>
+         <p>Google Admob is A Website where you can Monitize your Own Website in just Few Seconds</p>
+         <a href="blogs/admob.html" class="btn">Read More</a>
       </div>
+
+      <div class="box">
+         <img src="images/ads.png" alt="">
+         <h3>Google Ads</h3>
+         <p>The Best Way to Pramote your Channel Or any Product</p>
+         <a href="blogs/googleads.html" class="btn">Read More</a>
+      </div>
+
+      <div class="box">
+         <img src="images/amazon.png" alt="">
+         <h3>Amazon The India's Largest Shoping Platform</h3>
+         <p>Amazon is the one of the Largest Onlline Shoping Platform in india</p>
+         <a href="" class="btn">Read More</a>
+      </div>
+
    </div>
 
 </section>
@@ -83,29 +227,60 @@
 
 <!-- menu section starts  -->
 
-<section id="menu" class="menu">
 
-   <h1 class="heading">our menu</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <img src="images/admob.png" alt="">
-         <div class="name">Google Admob</div>
-        <a href="blogs/googleadmob.html" class="btn"> Read More </a>
-      </div>
-   </div>
-
-</section>
-
-<!-- menu section ends -->
-
-<!-- order section starts  -->
 
 <!-- order section ends -->
 
 <!-- faq section starts  -->
 
+<section class="faq" id="faq">
+
+   <h1 class="heading">FAQ</h1>
+
+   <div class="accordion-container">
+
+      <div class="accordion active">
+         <div class="accordion-heading">
+            <span>How does We Work?</span>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accrodion-content">
+            So Our Team Helps the peoples to know the Imformation about various Website , app,Platforms and Many More we Help our Every User
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <span>How long it take to write a Blog?</span>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accrodion-content">
+            So Basically we all First Research on our Topic and Then we try to Find the Best as well as the WOrst Point of the Toipc and then it is Approved By Mr Nisarga Lokhande And The it is Published In this Website
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <span>Who is Nisarga Lokhande?</span>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accrodion-content">
+            Nisarga Lokhande is the Owner of Nikobuddy as well as he is a passive App Developer And Content Creater on Yt And NIkoBuddy.
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <span>How much Does Nisarga Lokhande Earns?</span>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accrodion-content">
+            Nisarga Lokhande Earns as Per the Trafic On this Website with the help of google ads.
+         </p>
+      </div>
+   </div>
+
+</section>
 
 <!-- faq section ends -->
 
@@ -116,12 +291,6 @@
    <div class="box-container">
 
       <div class="box">
-         <i class="fas fa-phone"></i>
-         <h3>phone number</h3>
-         <p>+91 7350449972</p>
-      </div>
-
-      <div class="box">
          <i class="fas fa-envelope"></i>
          <h3>email address</h3>
          <p>nisargalokhande@gmail.com</p>
@@ -130,12 +299,30 @@
    </div>
 
    <div class="credit">
-      &copy; copyright @ 2022 by <a href="nikobuddy.in"><span>Mr Nisarga Lokhande</span> </a>  | all rights reserved!
+      &copy; copyright @ 2022 by <span>mr. Nikya Lokhande</span> | all rights reserved!
    </div>
 
 </section>
 
 <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
